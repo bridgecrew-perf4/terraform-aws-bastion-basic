@@ -3,6 +3,9 @@
 This Terraform module creates a standardized public facing bastion instance. This basic configuration can be used to
 Access Private resources (RDS, EC2) using ssh Tunneling
 
+![AWS Bastion Instance](./img/bastion-instance-cloud-craft.png)
+NOTE: This image depicts extra EC2 resources for demonstration only. Module only creates the public facing bastion.
+
 ## Supported Resources
 
 The follow resource are created:
